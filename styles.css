@@ -50,12 +50,14 @@ body {
   text-align: center;
 
   h1 {
-    font-size: 25px;
+    font-size: 15px;
+    font-weight: 700;
   }
 
   h2 {
-    font-size: 18px;
+    font-size: 13px;
     color: hsl(216, 15%, 48%);
+    font-weight: 500;
   }
 
   @media (min-width: 900px) {
