@@ -44,7 +44,7 @@ body {
 }
 
 .qrCodeDiv {
-  padding: 1vw;
+  padding: clamp(10px,3vw,20px);
 }
 
 .qrCode {
@@ -64,22 +64,20 @@ body {
 
   padding-left: 2vw;
   padding-right: 2vw;
+  padding-bottom: clamp(40px,2vh,50px);
 
   text-align: center;
 
   h1 {
-    font-size: 1.6vw;
+    font-size: clamp(22px,1.6vw,50px);
     font-weight: 700;
     color: hsl(218, 44%, 22%);
   }
 
   h2 {
-    font-size: 1.2vw;
+    font-size: clamp(16px,1.2vw,50px);
     color: hsl(216, 15%, 48%);
-    font-weight: 500;
+    font-weight: 400;
   }
 
-  @media (min-width: 900px) {
-    padding: 1vw;
-  }
 }
